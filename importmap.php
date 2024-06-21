@@ -13,7 +13,7 @@
  */
 return [
     'app' => [
-        'path' => './assets/app.js',
+        'path' => './assets/js/app.js',
         'entrypoint' => true,
     ],
     '@hotwired/stimulus' => [
@@ -24,5 +24,15 @@ return [
     ],
     '@hotwired/turbo' => [
         'version' => '7.3.0',
+    ],
+    '@popperjs/core' => [
+        'version' => '2.11.8',
+    ],
+
+    'date-fns' => [
+        'version' => '3.3.1',
+    ],
+    'bootstrap/dist/js/bootstrap.bundle.min.js' => [
+        'version' => '5.3.3',
     ],
 ];
